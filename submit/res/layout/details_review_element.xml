@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="20dp"
+    android:paddingBottom="20dp">
+
+    <ImageView
+        android:id="@+id/user_profile_icon"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_gravity="center"
+        />
+
+    <LinearLayout
+        android:id="@+id/user_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:id="@+id/user_name"
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:text="asdadadsa"
+            android:textSize="15sp"
+            android:textColor="#00A082"
+            />
+        <RatingBar
+            android:id="@+id/user_rating"
+            style="?android:attr/ratingBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:isIndicator="true"
+            android:numStars="5"
+            android:rating="3"
+            android:stepSize="0.1"/>
+        <TextView
+            android:id="@+id/user_time"
+            android:layout_width="245dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="2018-01-23 02:55:22"
+            android:textColor="#343535"
+            />
+        <TextView
+            android:id="@+id/user_content"
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:text="Often this address is equivalent to the postal address. Note that some countries, such as the United Kingdom, do not allow distribution of true postal addresses due to licensing restrictions."
+            android:textColor="#343535"
+            />
+
+    </LinearLayout>
+
+
+</TableRow>

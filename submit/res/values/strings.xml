@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">Places Search</string>
+    <string name="search_results">Search results</string>
+    <string name="details">Details</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_result">ResultActivity</string>
+    <string name="title_activity_details">DetailsActivity</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="no_favorites">No favorites</string>
+
+    <!-- Tabs -->
+    <string name="search_tab">SEARCH</string>
+    <string name="favorite_tab">FAVORITES</string>
+    <string name="info_tab">INFO</string>
+    <string name="photos_tab">PHOTOS</string>
+    <string name="map_tab">MAP</string>
+    <string name="reviews_tab">REVIEWS</string>
+
+    <!-- tags -->
+    <string name="address_tag">Address</string>
+    <string name="phone_tag">Phone Number</string>
+    <string name="price_level_tag">Price Level</string>
+    <string name="rating_tag">Rating</string>
+    <string name="google_page_tag">Google Page</string>
+    <string name="website_tag">Website</string>
+
+    <!-- API -->
+    <string name="search_api">http://chen035csci571hw8-env.us-east-1.elasticbeanstalk.com/search</string>
+    <string name="next_page_api">http://chen035csci571hw8-env.us-east-1.elasticbeanstalk.com/next_page</string>
+    <string name="yelp_review_api">http://chen035csci571hw8-env.us-east-1.elasticbeanstalk.com/yelp_review</string>
+    <string name="google_place_details_api">http://chen035csci571hw8-env.us-east-1.elasticbeanstalk.com/details</string>
+    <string name="google_geo_api">https://maps.googleapis.com/maps/api/geocode/json</string>
+    <string name="twitter_url">https://twitter.com/intent/tweet</string>
+
+    <string name="google_api_key">AIzaSyBfNgCQIzlNLQiTyVI7qJfpHsufihMtVjE</string>
+    <string name="no_results">No results</string>
+    <string name="no_info">No information</string>
+
+    <!-- category list -->
+    <string-array name="category_array">
+        <item>Default </item>
+        <item>Airport</item>
+        <item>Amusement Park</item>
+        <item>Aquarium</item>
+        <item>Art Gallery</item>
+        <item>Bakery</item>
+        <item>Bar</item>
+        <item>Beauty Salon</item>
+        <item>Bowling Alley</item>
+        <item>Bus Station</item>
+        <item>Cafe</item>
+        <item>Campground</item>
+        <item>Car Rental</item>
+        <item>Casino</item>
+        <item>Lodging</item>
+        <item>Movie Theater</item>
+        <item>Museum</item>
+        <item>Night Club</item>
+        <item>Park</item>
+        <item>Parking</item>
+        <item>Restaurant</item>
+        <item>Shopping Mall</item>
+        <item>Stadium</item>
+        <item>Subway Station</item>
+        <item>Taxi Stand</item>
+        <item>Train Station</item>
+        <item>Transit Station</item>
+        <item>Travel Agency</item>
+        <item>Zoo</item>
+    </string-array>
+
+    <string-array name="travel_array">
+        <item>Driving</item>
+        <item>Bicycling</item>
+        <item>Transit</item>
+        <item>Walking</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="no_photos">No photos</string>
+    <string name="no_reviews">No reviews</string>
+</resources>
